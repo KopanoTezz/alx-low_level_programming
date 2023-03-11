@@ -1,6 +1,14 @@
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
+#include <stdio.h>
+/**
+ * _puts - This is a description
+ * @s: String of characters
+ *
+ */
+void _puts(char *s)
+{
+	puts(s);
+}
 /**
  * main - Entry point
  *
@@ -8,6 +16,6 @@ void _puts(char *str)
  */
 int main(void)
 {
-	_puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
